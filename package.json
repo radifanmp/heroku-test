@@ -18,6 +18,6 @@
     "sequelize-cli": "^5.5.0"
   },
   "engines" :{
-    "nodejs": "11.12.0"
+    "node": "11.12.0"
   }
 }
