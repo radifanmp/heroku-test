@@ -9,6 +9,11 @@ app.use(bodyParser.json())
 
 const UserController = require('./controllers/user')
 
+
+app.get('/',(req,res)=>{
+    res.send('Radif Ganteng')
+})
+
 app.get('/users',  UserController.index) //auth
 app.get('/user/:id',  UserController.show) //auth
 app.post('/user', UserController.store)
